@@ -53,3 +53,9 @@
 .granata, .petrolio, .nero, .azzurro, .blu, .beige{
     height: 250px;
 }
+
+/* section about */
+.about{
+    background-color: #1abc9c;
+}
+
