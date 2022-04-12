@@ -1,75 +1,64 @@
 /* COMMONS */
-.container_custom_small{
+.container_small{
+    width: 60%;
     margin: auto;
-    height: 575px;
-    width: 575px;
-    background-color: grey;
+}
+
+h2{
+    text-align: center;
+}
+
+/* COLORS*/
+.bg_first_color{
+    background-color: #1abc9c;
+}
+
+.bg_second_color{
+    background-color: #2c3e50;
+}
+
+.bg_third_color{
+    background-color: #3a546d;
 }
 
 /* HEADER */
-
-/* header-top */
-.header_top{
-    background-color: #2c3e50;
-    height: 70px;
+header{
+    color: #fff;
 }
-
-.header_top ul li{
-    display: block;
-}
-
-/* hero */
-.header_bottom{
-    background-color: #1abc9c;
+.main_nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 0 10px;
+    margin-bottom: 0;
 }
 
 /* MAIN */
 
-/* section portfolio */
-.granata{
-    background-color: #ba4b63;
+/* hero */
+.hero{
+    color: #fff;
+    text-align: center;
 }
 
-.petrolio{
-    background-color: #1ea4b6;
+/* portfolio */
+.portfolio img{
+    width: 100%;
 }
 
-.nero{
-    background-color: black;
-}
-
-.azzurro{
-    background-color:#1c83c1 ;
-}
-
-.blu{
-    background-color: #0e38b5;
-}
-
-.beige{
-    background-color: #ccb2a3;
-}
-
-.granata, .petrolio, .nero, .azzurro, .blu, .beige{
-    height: 250px;
-}
-
-/* section about */
+/* about */
 .about{
-    background-color: #1abc9c;
+    color: #fff;
 }
+/* contact me */
 
-/* section contact me */
 
 /* FOOTER */
 
 /* footer top */
-.footer_top{
-    background-color: #3a546d;
+footer{
+    color: #fff;
+    text-align: center;
 }
 
 /* footer bottom */
-.footer_bottom{
-    background-color: #2c3e50;
-    text-align: center;
-}
