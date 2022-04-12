@@ -25,6 +25,7 @@ h2{
 header{
     color: #fff;
 }
+
 .main_nav ul{
     display: flex;
     list-style: none;
@@ -33,12 +34,26 @@ header{
     margin-bottom: 0;
 }
 
+.main_nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
 /* MAIN */
 
 /* hero */
 .hero{
     color: #fff;
     text-align: center;
+}
+
+.hero img{
+    width: 300px;
+    height: 300px;
+}
+
+.fa-bars{
+    font-size: 25px;
 }
 
 /* portfolio */
@@ -50,8 +65,20 @@ header{
 .about{
     color: #fff;
 }
-/* contact me */
 
+.about button{
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 8px 10px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+/* contact me */
+.field_custom{
+    border: none;
+    border-bottom: 1px solid #778899;
+    border-radius: 0;
+}
 
 /* FOOTER */
 
