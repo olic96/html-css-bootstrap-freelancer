@@ -8,6 +8,25 @@ h2{
     text-align: center;
 }
 
+.decoration{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.line{
+    border-radius: 10px;
+    height: 3px;
+    width: 80px;
+}
+
+.height_line{
+    height: 100%;
+    background-color: #fff;
+}
+
 /* COLORS*/
 .bg_first_color{
     background-color: #1abc9c;
@@ -57,6 +76,10 @@ header{
 }
 
 /* portfolio */
+.section_1 .decoration .height_line{
+    background-color: #000;
+}
+
 .portfolio img{
     width: 100%;
     border-radius: 10px;
@@ -82,6 +105,7 @@ header{
     font-size: 60px;
     color: #fff;
     border-radius: 10px;
+    opacity: 0.8;
 }
 
 /* about */
@@ -97,6 +121,10 @@ header{
     color: #fff;
 }
 /* contact me */
+.section_3 .decoration .height_line{
+    background-color: #000;
+}
+
 .field_custom{
     border: none;
     border-bottom: 1px solid #778899;
